@@ -1,0 +1,13 @@
+Classes we have:
+MainFrame class
+	-sets the size of the frame
+MainPanel class
+	-sets up button panel
+NavPanel class
+	-sets up navigation button panel
+Character class
+	-class for typical character traits
+Player class
+	-extends from Character class and adds strength, stamina, and speed
+Npc class
+	-extends from Character class and adds ally trait
