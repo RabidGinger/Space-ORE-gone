@@ -11,8 +11,9 @@ public class MainPanel extends JPanel {
 	JScrollPane area;
 	JTextArea text;
 	
-	JPanel buttonArea;
+	NavPanel navPanel = new NavPanel();
 	
+	JPanel buttonArea;
 	JButton b1;
 	JButton b2;
 	JButton b3;
@@ -74,10 +75,11 @@ public class MainPanel extends JPanel {
 		add(buttonArea, BorderLayout.SOUTH);
 		
 		//b1.addActionListener();
-		
+		//test
 		
 		
 		
 		
 	}
 }
+
