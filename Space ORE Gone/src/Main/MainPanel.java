@@ -11,7 +11,7 @@ public class MainPanel extends JPanel {
 	JScrollPane area;
 	JTextArea text;
 	
-	NavPanel navPanel = new NavPanel();
+	NavPanel navPanel;
 	
 	JPanel buttonArea;
 	JButton b1;
@@ -27,6 +27,9 @@ public class MainPanel extends JPanel {
 	{
 		//PANEL LAYOUT
 		setLayout(new BorderLayout());
+		
+		 navPanel = new NavPanel();
+		 add(navPanel, BorderLayout.WEST);
 		
 		//TEXT AREA//
 		area = new JScrollPane(text = new JTextArea(""));
