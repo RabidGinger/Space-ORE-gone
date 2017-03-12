@@ -20,9 +20,9 @@ public class Party {
 				members.add(player);
 			}
 		}
-		this.money = 0;
-		this.water = 0;
-		this.fuel = 0;
+		this.money = money;
+		this.water = water;
+		this.fuel = fuel;
 		this.pace = pace;
 		this.rations = rations;
 		
