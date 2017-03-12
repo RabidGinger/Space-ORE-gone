@@ -1,10 +1,14 @@
 
 public class Npc extends Character {
 
-	private int allie;	//1 if friend 0 if foe
+	private int ally;	//1 if friend 0 if foe
 	
-	public Npc(String name, int gender, String role, int allie)	{
+	public Npc(String name, int gender, String role, int ally)	{
 		super(name, gender, role);
-		this.allie = allie;
+		this.ally = ally;
+	}
+	
+	public int getAlly()	{
+		return ally;
 	}
 }

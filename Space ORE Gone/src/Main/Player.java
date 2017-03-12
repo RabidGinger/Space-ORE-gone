@@ -12,5 +12,22 @@ public class Player extends Character {
 		this.stamina = stamina;
 		this.speed = speed;
 		skillPt = 10;
+		skillPt -= strength - stamina - speed;
+	}
+	
+	public int getStrength()	{
+		return strength;
+	}
+	
+	public int getStamina()	{
+		return stamina;
+	}
+	
+	public int getSpeed()	{
+		return speed;
+	}
+	
+	public int getskillPt()	{
+		return skillPt;
 	}
 }
